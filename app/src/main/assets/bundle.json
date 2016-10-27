@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.example.mysamll.app.main"
+    },
+    {
+      "uri": "home",
+      "pkg": "com.example.mysamll.app.home"
+    },
+    {
+      "uri": "detail",
+      "pkg": "com.example.mysamll.app.detail"
+    },{
+      "uri":"test",
+      "pkg":"com.example.mysamll.app.test"
+    },{
+      "uri":"testtwo",
+      "pkg":"com.example.mysamll.app.testtwo"
+    }
+  ]
+}
