@@ -40,6 +40,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="clickHome"
+                android:background="@drawable/shape_button"
+                android:text=" home" />
+
+            <!--<Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="webClick"
+                android:text="openrBaidu" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clickHome"
                 android:text=" home" />
 
             <Button
@@ -65,6 +78,30 @@
                 android:layout_height="wrap_content"
                 android:onClick="clickTest2"
                 android:text="  test2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="guestClick"
+                android:text="  spguest" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="hostClick"
+                android:text="  sphost" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="goChart"
+                android:text="  goChart" />
+
+            <Button
+                android:id="@+id/buttonSqlite"
+                android:text="mysqlite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>-->
 
 
         </LinearLayout>

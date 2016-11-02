@@ -9,11 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.mysamll.app.test.SubActivity">
 
-    <TextView
-        android:text="subActivity"
-        android:textSize="35dp"
-        android:gravity="center"
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>

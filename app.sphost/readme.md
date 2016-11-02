@@ -1,0 +1,1 @@
+a host for check SharedPreferences.

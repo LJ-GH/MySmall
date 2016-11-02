@@ -368,6 +368,8 @@ int dimen abc_text_size_subhead_material
 int dimen abc_text_size_subtitle_material_toolbar
 int dimen abc_text_size_title_material
 int dimen abc_text_size_title_material_toolbar
+int dimen activity_horizontal_margin
+int dimen activity_vertical_margin
 int dimen disabled_alpha_material_dark
 int dimen disabled_alpha_material_light
 int dimen highlight_alpha_material_colored
@@ -472,6 +474,7 @@ int id alertTitle
 int id always
 int id beginning
 int id buttonPanel
+int id buttonSqlite
 int id cancel_action
 int id checkbox
 int id chronometer
@@ -497,6 +500,7 @@ int id image
 int id info
 int id line1
 int id line3
+int id lineChart
 int id listMode
 int id list_item
 int id media_actions
@@ -577,6 +581,7 @@ int layout abc_screen_toolbar
 int layout abc_search_dropdown_item_icons_2line
 int layout abc_search_view
 int layout abc_select_dialog_material
+int layout activity_chart_actvity
 int layout activity_launch
 int layout notification_media_action
 int layout notification_media_cancel_action

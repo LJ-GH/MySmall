@@ -1,6 +1,7 @@
 package com.example.mysamll;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -86,6 +87,16 @@ public class LaunchActivity extends AppCompatActivity {
         }
     };
 
+    public void webClick(View v){
+        Small.openUri("https://github.com", LaunchActivity.this);
+    }
+
+    public void goChart(View v){
+        Intent intent = new Intent();
+        intent.setClass(LaunchActivity.this,ChartActvity.class);
+        startActivity(intent);
+    }
+
 
     public void clickHome(View v){
         Small.setUp(this, new net.wequick.small.Small.OnCompleteListener() {
@@ -142,10 +153,30 @@ public class LaunchActivity extends AppCompatActivity {
         Toast.makeText(LaunchActivity.this, "had press", Toast.LENGTH_SHORT).show();
     }
 
+    public void guestClick(View v){
+        Small.setUp(this, new net.wequick.small.Small.OnCompleteListener() {
+            @Override
+            public void onComplete() {
+                Small.openUri("spguest", LaunchActivity.this);//启动默认的Activity，参考wiki中的UI route启动其他Activity
+            }
+        });
+        Toast.makeText(LaunchActivity.this, "had press", Toast.LENGTH_SHORT).show();
+    }
+
+    public void hostClick(View v){
+        Small.setUp(this, new net.wequick.small.Small.OnCompleteListener() {
+            @Override
+            public void onComplete() {
+                Small.openUri("spHost", LaunchActivity.this);//启动默认的Activity，参考wiki中的UI route启动其他Activity
+            }
+        });
+        Toast.makeText(LaunchActivity.this, "had press", Toast.LENGTH_SHORT).show();
+    }
+
     @Override
     public void onStart(){
         super.onStart();
-        Small.setBaseUri("http://cloud.gx-ee.com");
+//        Small.setBaseUri("http://cloud.gx-ee.com");
 
 //        Small.setUp(this, new net.wequick.small.Small.OnCompleteListener() {
 //
@@ -153,6 +184,17 @@ public class LaunchActivity extends AppCompatActivity {
 //            public void onComplete() {
 //                Small.openUri("main", LaunchActivity.this);//启动默认的Activity，参考wiki中的UI route启动其他Activity
 //                Small.openUri("detail", LaunchActivity.this);//启动默认的Activity，参考wiki中的UI route启动其他Activity
+//            }
+//        });
+//        findViewById(R.id.buttonSqlite).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Small.setUp(LaunchActivity.this, new net.wequick.small.Small.OnCompleteListener() {
+//                    @Override
+//                    public void onComplete() {
+//                        Small.openUri("mysqlite",LaunchActivity.this);
+//                    }
+//                });
 //            }
 //        });
     }

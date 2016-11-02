@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mysamllpluss.app.biuEditTest.MainActivity">
+
+    <me.james.biuedittext.BiuEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="biu,biu,发射 1 号"
+        android:textColor="@android:color/black"
+        app:biu_duration="800"
+        app:biu_text_color="@android:color/black"
+        app:biu_text_scale="1.5"
+        app:biu_type="flyup"
+        app:biu_text_start_size="12sp" />
+</RelativeLayout>

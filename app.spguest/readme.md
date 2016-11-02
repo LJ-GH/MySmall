@@ -1,0 +1,1 @@
+A guest for SharedPreferences test.

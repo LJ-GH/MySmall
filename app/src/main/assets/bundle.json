@@ -18,6 +18,15 @@
     },{
       "uri":"testtwo",
       "pkg":"com.example.mysamll.app.testtwo"
+    },{
+      "uri":"spguest",
+      "pkg":"com.example.mysamllpluss.app.spguest"
+    },{
+      "uri":"spHost",
+      "pkg":"com.example.mysamllpluss.app.spHost"
+    },{
+      "uri":"sqlite",
+      "pkg":"com.example.mysamllpluss.app.sqlite"
     }
   ]
 }
